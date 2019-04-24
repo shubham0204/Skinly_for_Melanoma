@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/content_main"/>
+
+    <Button
+        android:id="@+id/take_picture_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorOrange"
+        android:elevation="5dp"
+        android:fontFamily="@font/average_sans"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:stateListAnimator="@animator/button_animator"
+        android:text="take picture"
+        app:cornerRadius="40dp"
+        app:icon="@drawable/take_camera_white_icon"
+        app:layout_anchor="@id/bottomAppBar"
+        app:layout_anchorGravity="center_horizontal"
+        app:rippleColor="@android:color/white" />
+
+    <android.support.design.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_gravity="bottom"
+
+        app:hideOnScroll="true"
+        app:navigationIcon="@drawable/nav_menu_icon">
+
+    </android.support.design.bottomappbar.BottomAppBar>
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

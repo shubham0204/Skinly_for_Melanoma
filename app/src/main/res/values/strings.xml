@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">Skinly</string>
+    <string name="dev_email">equipintelligence@gmail.com</string>
+
+    <string name="download_images_message">
+        We need to download a handful of images which would help the application to detect and classify the diseases.
+        In order to save the images to your device storage, the application requires the storage permission.
+        The downloading will start once the permission is granted.
+    </string>
+    <string name="continue_image_download_message">
+        Images could not downloaded. Would you like to download the images to complete
+        the whole process?
+    </string>
+    <string name="melanoma_result">The app has detected possibilities of Melanoma disease.</string>
+    <string name="app_results_disclaimer">The app is in research stage. The actual medical results may vary.</string>
+    <string name="no_disease_found_result">No diseases were found in the sample image.</string>
+
+    <string name="download_completed_key">download_complete</string>
+    <string name="download_index_key">download_index</string>
+    <string name="app_first_open_key">first_open</string>
+
+    <string name="t1">
+        <![CDATA[
+
+        <h2><u>What is Melanoma?</u></h2>
+
+        The most dangerous form of skin cancer, these cancerous growths develop when unrepaired DNA damage to
+        skin cells (most often caused by ultraviolet radiation from sunshine or tanning beds) triggers mutations
+        (genetic defects) that lead the skin cells to multiply rapidly and form malignant tumors. These tumors originate
+        in the pigment-producing melanocytes in the basal layer of the epidermis. Melanomas often resemble moles; some
+        develop from moles. The majority of melanomas are black or brown, but they can also be skin-colored, pink, red,
+        purple, blue or white. Melanoma is caused mainly by intense, occasional UV exposure (frequently leading to sunburn),
+        especially in those who are genetically predisposed to the disease.
+
+        <br></br><br></br>
+
+        If melanoma is recognized and treated early, it is almost always curable, but if it is not, the cancer can advance
+        and spread to other parts of the body, where it becomes hard to treat and can be fatal. It is not the most
+        common of the skin cancers.
+
+        <br></br><br></br>
+
+        ]]>
+
+    </string>
+    <string name="t2">
+        <![CDATA[
+
+
+        <h2><u>Symptoms of Melanoma :</u></h2>
+
+        The first sign of melanoma is typically a new spot on the skin, or a change in the size, shape or
+        color of an existing mole. The ABCDE method may help you determine whether an abnormal skin growth may be melanoma:
+
+        <br></br><br></br>
+
+        Asymmetry: The mole has an irregular shape.<br></br>
+        Border: The edge is not smooth, but irregular or notched.<br></br>
+        Color: The mole has uneven shading or dark spots.<br></br>
+        Diameter: The spot is larger than the size of a pencil eraser.<br></br>
+        Evolving or Elevation: The spot is changing in size, shape or texture.<br></br>
+        The only way to be sure if a mole is melanoma is to have it examined by a doctor.<br></br>
+
+        <br></br><br></br>
+
+        <b>Other melanoma symptoms may include:</b>
+
+        <br></br><br></br>
+
+        Sores that do not heal<br></br>
+        Pigment, redness or swelling that spreads outside the border of a spot to the surrounding skin<br></br>
+        Itchiness, tenderness or pain<br></br>
+        Changes in texture, or scales, oozing or bleeding from an existing mole<br></br>
+        Blurry vision or partial loss of sight, or dark spots in the iris<br></br>
+
+        ]]>
+    </string>
+    <string name="t3">
+        <![CDATA[
+
+        These are examples of they types of treatment available for melanoma.
+        Based on your personal history, pathology report, and stage at diagnosis, your doctor may recommend one or
+        more of the following:
+
+        <h2><u>Surgery</u></h2>
+
+        Surgery is the mainstay of therapy for early stage melanoma and for the resection of an isolated metastatic
+        melanoma site. There are several different types of surgeries that are regularly performed to treat melanoma.
+
+        <h2><u>Radiation</u></h2>
+
+        Radiation therapy uses high energy rays, like x-rays, to kill cancer cells. Although radiation is not an overly
+        common melanoma treatment option, it is most often used as a symptom-relieving therapy in patients whose melanoma
+        has spread to the brain or bones.
+
+        <h2><u>Clinical Trials</u></h2>
+
+        Clinical trials are research studies to test promising new or experimental cancer treatments.
+        There are hundreds of clinical trials happening at any given time, and most experts agree that for
+        a late-stage diagnosis, clinical trials are the best treatment option. You can also visit our Clinical
+        Trial Finder to learn about clinical trials that are available.
+
+        <br></br><br></br>
+
+        ]]>
+    </string>
+    <string name="t4">
+        <![CDATA[
+
+           <h2><u>Bringing Machine Learning ( ML ) to Android :</u></h2>
+
+        The machine learning model used in this application is built using TensorFlow Python APIs. TensorFlow is a great
+        machine learning framework and can run its models on Android as well as on iOS. TensorFlow Lite is an optimum
+        API which helps to transform TensorFlow models so that they could be loaded on IOT devices.
+
+        <h2><u>About the model :</u></h2>
+
+        The application demonstrates the working of a Convolutional Siamese Neural Network. It has been created with
+        TensorFlow Keras. Less training period along with simpler architecture are some of the features kept in
+        mind while creating the model. Also, quantization helped in reducing the size of the inference model which
+        would otherwise diminish the performance of the model.
+
+        <h2><u>Firebase Services :</u></h2>
+
+        Firebase has been providing a number of free services which are scalable and outstanding. The application
+        uses Firebase Realtime Database and Firebase Cloud Storage to download the images necessary for the classification of
+        Melanoma.
+
+        <h2><u>Training/Validation Data:</u></h2>
+
+        The data was scraped from the web by Shubham Panchal as no such datasets were readily available. The model
+        has been trained on augmented images to its best accuracy. The developer tends to extend this technology
+        for the classification for more diseases in future. You can use the email-ID which is provided in the
+        "Send Feedback" feature to contribute or give suggestions.
+
+        ]]>
+    </string>
+
+    <string name="what_is_melanoma">What is Melanoma?</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="treatment_and_cure">Treatment and Cure</string>
+    <string name="how_s_it_made">How\'s it made?</string>
+
+
+</resources>

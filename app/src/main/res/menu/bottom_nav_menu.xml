@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="navigation_view"
+>
+    <group android:checkableBehavior="single">
+
+                <item
+                        android:id="@+id/nav_info_diseases"
+                        android:title="@string/what_is_melanoma"
+                        android:icon="@drawable/disease_icon"
+                    android:checked="true"
+                />
+                <item
+                        android:id="@+id/nav_symptoms"
+                        android:title="@string/symptoms"
+                        android:icon="@drawable/symptoms_icon"
+                />
+                <item
+                        android:id="@+id/nav_cure"
+                        android:title="@string/treatment_and_cure"
+                        android:icon="@drawable/treatment_icon"/>
+
+                <item
+                        android:id="@+id/nav_making"
+                        android:title="@string/how_s_it_made"
+                        android:icon="@drawable/info_icon"
+                />
+
+
+    </group>
+
+
+</menu>

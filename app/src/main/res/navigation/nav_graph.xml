@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_info_diseases">
+
+
+    <fragment android:id="@+id/nav_info_diseases" android:name="com.health.inceptionapps.skinly.FragmentClasses.DiseaseInfoFragment"
+        android:label="fragment_disease_info" tools:layout="@layout/fragment_disease_info"/>
+    <fragment android:id="@+id/nav_symptoms" android:name="com.health.inceptionapps.skinly.FragmentClasses.SymptomsFragment"
+        android:label="fragment_symptoms" tools:layout="@layout/fragment_symptoms"/>
+    <fragment android:id="@+id/nav_cure" android:name="com.health.inceptionapps.skinly.FragmentClasses.TreatmentFragment"
+        android:label="fragment_treatment" tools:layout="@layout/fragment_treatment"/>
+    <fragment
+        android:id="@+id/nav_making"
+        android:name="com.health.inceptionapps.skinly.FragmentClasses.MakingFragment"
+        android:label="fragment_making"
+        tools:layout="@layout/fragment_making" />
+
+</navigation>

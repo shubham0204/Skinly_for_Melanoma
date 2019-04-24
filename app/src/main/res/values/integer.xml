@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="app_button_anim_duration">150</integer>
+    <integer name="app_fragment_enter_duration">500</integer>
+    <integer name="app_alert_dialog_anim_duration">250</integer>
+
+</resources>
