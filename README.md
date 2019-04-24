@@ -3,6 +3,8 @@
 
 Skinly is a open-source research project which tends to bring the classifcation of skin diseases to Android devices. The models ( classifiers ) are built with TensorFlow in Python. 
 
+Google Play Store > https://play.google.com/store/apps/details?id=com.health.inceptionapps.skinly
+
 ## Where can I find the Python project?
 
 You can find the project on GitHub at https://github.com/shubham0204/Melanoma_Classification_with_TF .
