@@ -1,8 +1,7 @@
 
 ## What is Skinly?
 
-Skinly is a open-source research project which tends to bring the classifcation of skin diseases to Android devices. The models ( classifiers )  
-are built with TensorFlow in Python. 
+Skinly is a open-source research project which tends to bring the classifcation of skin diseases to Android devices. The models ( classifiers ) are built with TensorFlow in Python. 
 
 ## Where can I find the Python project?
 
