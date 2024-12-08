@@ -1,4 +1,9 @@
 
+> [!WARNING]
+> This repository has been archived as of December 2024 and it will not receive any updates henceforth. The Firebase project which the app uses has also been removed, which may lead to some crashes and unintended behaviour in the app.
+
+---
+
 ## What is Skinly?
 
 Skinly is a open-source research project which tends to bring the classifcation of skin diseases to Android devices. The models ( classifiers ) are built with TensorFlow in Python. 
